@@ -837,10 +837,6 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
-                )
-            ],
             [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
         ]
     )
