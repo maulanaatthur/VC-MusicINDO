@@ -808,11 +808,7 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("📖 Playlist", callback_data="cplaylist"),
                 InlineKeyboardButton("Menu ⏯ ", callback_data="cmenu"),
             ],
-            [
-                InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
-                )
-            ],
+           
             [InlineKeyboardButton(text="❌ Close", callback_data="ccls")],
         ]
     )
